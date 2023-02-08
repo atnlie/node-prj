@@ -20,7 +20,6 @@ const getAllArticles = (req, res) => {
 
     if (author !== '') {
         apiUrl = `https://jsonmock.hackerrank.com/api/articles?author=${author}&page=${page}`;
-        // apiUrl = `https://jsonmock.hackerrank.com/api/articles?page=${page}`;
     }
 
     console.log('apiUrl ' + apiUrl);
