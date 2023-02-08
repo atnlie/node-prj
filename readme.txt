@@ -25,3 +25,15 @@ Success Response {
         }
     ]
 }
+
+Empty Response {
+    'code': 2000,
+    'message': 'success get articles',
+    'data': []
+}
+
+Error Response {
+    'code': 4000,
+    'message': 'failed get articles',
+    'data': null
+}
